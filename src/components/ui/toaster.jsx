@@ -2,7 +2,6 @@ import { useToast } from "@/components/ui/use-toast";
 import {
   Toast,
   ToastProvider,
-  ToastViewport,
 } from "@/components/ui/toast";
 
 export function Toaster() {
@@ -23,7 +22,6 @@ export function Toaster() {
           </Toast>
         );
       })}
-      <ToastViewport />
     </ToastProvider>
   );
 } 
