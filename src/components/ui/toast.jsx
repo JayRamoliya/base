@@ -119,3 +119,8 @@ const Toast = ({ toast, onRemove }) => {
     </div>
   );
 };
+
+export {
+  ToastContainer,
+  Toast,
+}
